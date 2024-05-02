@@ -1,40 +1,74 @@
-table {
-  border-collapse: collapse;
-  border: 2px solid rgb(140 140 140);
-  font-family: sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
+
+
+img{
+    width: 400px;
+    height: 350px;
+    border-radius: 50%;
 }
 
-caption {
+้hr{
+  /* background-color: violet; */
+  width: 30%;
+  /* height: 2px; */
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+}
+
+body{
+  background-color: powderblue;
+
+}
+.skill-bar {
+        width: 100%;
+        height: 20px;
+        background-color: light yellow;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+.skill-progress {
+    height: 100%;
+    background-color: green;
+}
+
+/* table {
+  border-collapse: collapse;
+  /*border: 2px solid rgb(140 140 140);*/
+  /* font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+} */
+
+/* caption {
   caption-side: bottom;
   padding: 10px;
   font-weight: bold;
-}
+} */
 
-thead,
+/* thead,
 tfoot {
   background-color: rgb(228 240 245);
-}
+} */
 
-th,
+/* th,
 td {
-  border: 1px solid rgb(160 160 160);
-  padding: 8px 10px;
-}
+  /*border: 1px solid rgb(160 160 160);*/
+  /* padding: 8px 10px;
+} */
 
-td:last-of-type {
+/* td:last-of-type {
   text-align: center;
-}
+} */
 
-tbody > tr:nth-of-type(even) {
+/* tbody > tr:nth-of-type(even) {
   background-color: rgb(237 238 242);
-}
+} */
 
-tfoot th {
+/* tfoot th {
   text-align: right;
-}
+} */
 
-tfoot td {
+/* tfoot td {
   font-weight: bold;
-}
+} */ 
